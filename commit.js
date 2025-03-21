@@ -4,7 +4,7 @@ import simpleGit from "simple-git";
 const git = simpleGit();
 
 const makeYesterdayCommit = async () => {
-  const date = "2025-03-19"; // 🔁 Change to whatever date you want
+  const date = "2025-03-21"; // 🔁 Change to whatever date you want
   const commitMessage = `Commit for ${date}`;
 
   try {
